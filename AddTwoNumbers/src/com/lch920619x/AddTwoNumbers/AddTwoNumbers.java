@@ -7,18 +7,21 @@ public class AddTwoNumbers {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		List<Integer> number1 = new LinkedList<Integer>();
-		List<Integer> number2 = new LinkedList<Integer>();
-		number1.add(5);	
-		number1.add(4);	
-		number1.add(1);	
-		number2.add(6);	
-		number2.add(1);	
-		number2.add(6);	
+		List<Integer> l1=new LinkedList<>();
+		List<Integer> l2=new LinkedList<>();
 		
+/*		l1.add(5);	
+		l1.add(4);	
+		l1.add(6);	
+		l2.add(6);	
+		l2.add(1);	
+		l2.add(9);	
+	*/	
 
 		Add add = new Add();
-		List<Integer> result = add.add(number1, number2);
+		List<Integer> result = add.add(l1, l2);
+		
+		System.out.println(result);
 		
 	}
 
